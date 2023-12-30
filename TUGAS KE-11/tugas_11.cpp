@@ -21,12 +21,18 @@ int main(){
 			C[hitungC++] = A[j];
 		}
 	}
+	
+	printf("A = ");
+		for(int i = 0; i<12;i++){
+		printf("%i,",A[i]);
+	} 
+	printf("\n");
 	printf("B = ");
 	for(int i = 0; i<hitungB;i++){
 		printf("%i,",B[i]);
 	} 
 	printf("\n");
-		printf("B = ");
+		printf("C = ");
 	for(int i = 0; i<hitungC;i++){
 		printf("%i,",C[i]);
 	} 
